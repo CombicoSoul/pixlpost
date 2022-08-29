@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+        .undraw_under_construction_{
+        	width: 500px;
+        	height: 500px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            animation: animate__shakeX;
+            animation-duration: 10s;
+        }
+        .underw{
+        	text-align: center;
+        }
+		nav{
+			background: #fff;
+			display:flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1rem 1.5rem;
+            box-shadow: 2px 3px 2px #f1f1f1;
+            position: sticky;
+            top: 0;
+            left: 0;
+            z-index: 1;
+            width: inherit;
+
+		}
+		a{
+			font-size: 22px;
+			font-family: cursive;
+			text-decoration: none;   
+            font-family: 'Silkscreen', cursive;
+		}
+		a:hover{
+			color: pink;
+			font-family: 'Silkscreen', cursive;
+		}
+		a:onclick{
+			font-family: 'Silkscreen', cursive;
+			color: hotpink;
+		}
+		.Logo{
+			cursor: pointer;
+		}
+		@media screen and (max-width: 420px){
+			a{
+				font-size: 5px;
+				font-family: cursive;
+				margin-right: 7px;
+				margin-left: 7px;
+			}
+			nav{
+				display:block;
+
+			}
+			a:hover{
+			color: pink;
+			font-family: ' cursive;
+		}
+		}
+		@media screen and (max-width: 540px){
+			a{
+				font-size: 15px;
+				margin-right: 10px;
+				margin-left: 10px;
+			}
+			nav{
+				display:block;
+
+			}
+		}
+		@media screen and (max-width: 720px){
+			a{
+				font-size: 21px;
+			}
+		}
+		@media screen and (max-width: 360px){
+
+		}
+		@media screen and (max-width: 500px){
+			a{
+				font-size: 15px;
+				margin-right: 10px;
+				margin-left: 10px;
+			}
+			nav{
+				display:block;
+
+			}
+			.login{
+				font-size: 10px;
+			}
+		}
+
+            
+          
+       
